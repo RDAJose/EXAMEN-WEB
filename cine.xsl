@@ -6,16 +6,8 @@
 <xsl:template match="/">
     <html>
         <body>
-            <h1>Películas</h1>
-            <ul>
-                <xsl:for-each select="cine/pelicula">
-                    <li>
-                        <xsl:value-of select="titulo"/>
-                        -
-                        <xsl:value-of select="director"/>
-                    </li>
-                </xsl:for-each>
-            </ul>
+            <h1>FUNCIONA XSLT</h1>
+            <p>Si ves este texto, el XSL se está aplicando.</p>
         </body>
     </html>
 </xsl:template>
