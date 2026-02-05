@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cine.xsl"?>
+<cine
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="cine.xsd">
+    <pelicula>
+        <titulo>Match Point</titulo>
+        <director>Woody Allen</director>
+        <anio>2014</anio>
+    </pelicula>
+    <pelicula>
+        <titulo>Death Proof</titulo>
+        <director>Quentin Tarantino</director>
+        <anio>2007</anio>
+    </pelicula>
+</cine>
