@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <tittle>Cine Visto</tittle>
+</head>
+<body>
+
+    <header>
+        <h1>Cine Visto</h1>
+        <p>Listado de cine visto y valoraciones</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="cine.html">Cine</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Último cine visto</h2>
+
+        <article>
+            <h3>Death Proof</h3>
+            <img src="img/death_proof.jpg" alt="Cartel de la película Death Proof">
+            <p>Película de acción dirigida por Quentin Tarantino</p>
+            <h4>Datos Principales</h4>
+            <ul>
+                <li>Año: 2014</li>
+                <li>Género: Ciencia Ficción</li>
+                <li>Duración: 169 minutos</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Match Point</h3>
+            <img src="img/match_point.jpg" alt="Cartel de la película Match Point">
+            <p>Clásico del cine dirigido por Woody Allen</p>
+            <h4>Datos Principales</h4>
+            <ul>
+                <li>Año: 1972</li>
+                <li>Género: Suspense</li>
+                <li>Duración: 175 minutos</li>
+            </ul>
+        </article>
+
+        <h2>Valoraciones</h2>
+
+        <table>
+            <caption>Valoración de películas</caption>
+            <!--table
+                    ├─ caption
+                    ├─ tr (cabecera con th)
+                    └─ tr (datos con td)-->
+            <tr>
+                <th>Película</th>
+                <th>Año</th>
+                <th>Valoración</th>
+            </tr>
+
+            <tr>
+                <td>Death Proof</td>
+                <td>2014</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>Match Point</td>
+                <td>1972</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+        <h2>Tráiler destacado</h2>
+
+        <video width="320" height="240" controls>
+            <source src="video/death_proof_trailer.mp4" type="video/mp4">
+            <source src="video/death_proof_trailer.mp4" type="video/ogg">
+            Tu navegador no soporta la etiqueta video.
+        </video>
+
+        <h2>Banda Sonora</h2>
+
+        <audio controls>
+            <source src="audio/match_point_song.mp3" type="audio/mpeg">
+            <source src="audio/match_point_song.mp3" type="audio/ogg">
+        </audio>
+    </section>
+
+    <aside>
+        <h2>Información adicional</h2>
+        <p>proyecto académico DAM - HTML básico</p>
+    </aside>
+
+    <footer>
+        <p>
+            Proyecto académico DAM - 
+            <a href="https://www.imdb.com" target=""_blank">IMDb</a>
+ <!-- Esta es una ruta absoluta y target solo se usa en <a>-->   
+        </p>
+        <p>2026 Cine Visto</p>
+    </footer>
+
+</body>
+</html>
